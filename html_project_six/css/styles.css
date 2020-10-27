@@ -1,0 +1,12 @@
+* {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.main {
+  padding: 20px;
+  background-color: #FA987D;
+}
+.sub {
+  background-color: #72CCA7;
+  padding: 20px;
+}

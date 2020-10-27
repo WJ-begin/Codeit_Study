@@ -1,0 +1,9 @@
+.info {
+  height: 220px;
+  border: solid #b72920;
+  overflow: scroll;
+  padding: 15px;
+}
+image {
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+#red {
+  height: 200px;
+  background-color: red;
+}
+#orange {
+  height: 200px;
+  background-color: orange;
+  float: left;
+  width: 25%;
+}
+#yellow {
+  height: 200px;
+  background-color: yellow;
+  float: left;
+  width: 50%;
+}
+#green {
+  height: 200px;
+  background-color: green;
+  float: left;
+  width: 25%;
+}
+#blue {
+  height: 200px;
+  background-color: blue;
+  float:left;
+  width: 50%;
+}
+#indigo {
+  height: 200px;
+  background-color: indigo;
+  float:left;
+  width: 50%;
+}
+#purple {
+  height: 200px;
+  background-color: purple;
+  position: relative;
+  top: 400px
+}

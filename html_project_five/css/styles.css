@@ -1,0 +1,69 @@
+@font-face {
+  src: url("../fonts/jua.otf");
+  font-family: "jua"
+}
+* {
+  box-sizing: border-box;
+  font-family: "jua";
+}
+body {
+  background-color: #f0e8d9;
+}
+
+.main {
+  margin-top: 75px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 64px;
+  color: #58595b;
+  font-weight: lighter;
+}
+
+.sub {
+  margin-top: 0px;
+  margin-bottom: 75px;
+  text-align: center;
+  color: #58595b;
+  font-weight: lighter;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.main_text {
+  font-weight: lighter;
+  padding-top: 20px;
+  font-size: 32px;
+  margin-top:0px;
+  margin-bottom: 20px;
+  color: #58595b
+}
+
+.sub_text {
+  font-weight: lighter;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size:16px;
+  margin-bottom: 16px;
+  color: #58595b
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.btn {
+  color: #0000ee;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 20px;
+}

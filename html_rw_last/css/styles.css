@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+#navbar {
+  height: 60px;
+  background-color: #353535;
+  line-height: 60px;
+  vertical-align: middle;
+  clear:both;
+}
+
+#navbar h1 {
+  font-size: 20px;
+  color: white;
+  display:inline-block;
+  line-height: normal;
+  margin-left: 40px;
+}
+
+.main .text h1 {
+  font-size :16px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.main .text h2 {
+  font-size : 20px;
+  color: #1b1b1b;
+  margin-bottom: 30px;
+}
+
+.main .text p {
+  font-size : 16px;
+  color : #7a7a7a;
+}
+@media (max-width: 767px) {
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main .text {
+  padding : 30px;
+}
+
+.base {
+  position: relative;
+}
+
+.base h1 {
+  position: absolute;
+  left : 50%;
+  top: 45%;
+  transform: translate( -55%, -50%);
+  color: white;
+  border: 4px solid white;
+  padding: 9px 40px;
+  font-size:16px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+img {
+  width: 100%;
+  height: auto;
+  display: inline-block
+}  
+
+.main .text {
+  padding : 65px;
+}
+
+.sub {
+  width: 50%;
+  display:inline-block;
+  float:left;
+  clear:both;
+}
+
+.base {
+  position: relative;
+  width: 50%;
+  float:left;
+}
+
+.base h1 {
+  position: absolute;
+  left : 50%;
+  top: 45%;
+  transform: translate( -55%, -50%);
+  color: white;
+  border: 4px solid white;
+  padding: 9px 40px;
+  font-size: 16px;
+}
+
+.last img {
+  width: 50%;
+  float:left;
+}
+
+}
+@media (min-width : 993px) {
+
+.main img {
+  width: 50%;
+  height: 100vh; 
+  float:left;
+  clear:both;
+}
+
+.main .text {
+  width: 50%;
+  padding: 65px;
+  display: inline-block;
+  float:left;
+}
+
+.sub img {
+  width: 25%;
+  height: 50vh;
+  float:left;
+}
+
+.base {
+  position: relative;
+  width: 25%;
+  height: 25vh;
+  float:left;
+}
+
+.base img {
+  width: 100%;
+  height: 100%;
+}
+
+.base h1 {
+  position: absolute;
+  left : 50%;
+  top: 45%;
+  transform: translate( -55%, -50%);
+  color: white;
+  border: 4px solid white;
+  padding: 9px 40px;
+  font-size: 16px;
+}
+
+.last img {
+  width: 25%;
+  height: 25vh;
+}
+}

@@ -1,0 +1,105 @@
+body {margin: 0px; padding:0px}
+
+#navbar {
+  display:block;
+  height: 60px;
+  background-color: white;
+}
+
+#navbar .photo {
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+a:hover{color:#eeeeee}
+a:visited{text-decoration: none;}
+a:link{text-decoration: none;}
+a:active{text-decoration: none;}
+a {text-decoration: none; color:black;}
+
+#navbar ul {
+  font-family: Helvetica;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  float:right;
+  font-size:13px
+}
+
+#navbar li {
+  float:right;
+  margin-right:30px;
+}
+
+#main {
+  display: block;
+  height: 450px;
+  background-image: url("../images/hero_header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#product_list h1 {
+  color: #545454;
+  font-size: 24px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top:60px;
+}
+
+.product_space img{
+  width: 225px;
+  height: 225px;
+} 
+
+.product_space ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0px; 
+}
+
+#col {
+  width: 735px;
+  margin: 0 auto;
+}
+
+.product_space a {
+  float:left;
+  margin-left : 10px;
+  margin-right: 10px;
+  margin-bottom: 80px;
+}
+
+.product_space p {
+  font-size : 16px;
+  font-family: Helvetica;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#product_list {
+  height: 100vh;
+}
+
+#SNS {
+  clear:both;
+  text-align: center;
+}
+
+.space {
+  display: inline-block;
+  padding-top : 40px;
+  margin-bottom: 80px;
+}
+
+.space img {
+  height: 20px;
+  display : block;
+  float:left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  text-align: center;
+  margin: 13%;
+}
+
+.images {
+  width: 70px;
+  margin-right: 20px;
+}
+
